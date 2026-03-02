@@ -1,5 +1,7 @@
 # Army Aviation Maintenance Automation (Excel VBA)
 
+![alt text](MCC.png)
+
 ## Overview
 
 During my service as an **Aviation Technician in the Indian Army**, aircraft maintenance data was managed through complex Excel sheets.
