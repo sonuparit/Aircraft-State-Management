@@ -1,33 +1,57 @@
-# Army Aviation Maintenance Automation (Excel VBA)
+# 🛩️ Army Aviation Maintenance Automation (Excel VBA)
+
+### 🏅 Received a **commendation from the Officer Commanding** for developing this automation system, which improved operational efficiency during high-pressure (**`Pulwama attack`**) conditions.
+
+These automations are now **`actively used across aviation units`**, and I’ve received hundreds of calls — both for support and in recognition of the impact they’ve created.
+
+**Actual system snapshots at bottom**
 
 ![alt text](MCC.png)
 
-## Overview
+## 📚 Table of Contents
 
-During my service as an **Aviation Technician in the Indian Army**, aircraft maintenance data was managed through complex Excel sheets.
+- [Overview](#-overview)
+- [Problem](#️-problem)
+- [Solution](#-solution)
+- [Modules](#-modules)
+  - [Module 1 — Aircraft State Initialization](#module-1--aircraft-state-initialization)
+  - [Module 2 — Daily Aircraft Log Entry](#module-2--daily-aircraft-log-entry)
+  - [Module 3 — Serviceable Days Tracking](#module-3--aircraft-serviceable-days-tracking)
+  - [Module 4 — Automated Aircraft State Export](#module-4--automated-aircraft-state-export)
+  - [Module 5 — Component Due Monitoring](#module-5--component-due-monitoring-critical-automation)
+- [System Snapshots](#-system-snapshots-actual-implementation)
+- [Technologies Used](#-technologies-used)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Security Notice](#-security-notice)
+
+## 📖 Overview
+
+During my service as an **Aviation Technician in the Indian Army**, aircraft maintenance data was managed through complex Excel sheets.\
+
 Many operational checks, maintenance schedules, and component tracking tasks were performed **manually**, which was time‑consuming and error‑prone.
 
-To improve efficiency, I developed **VBA automation inside Excel** to streamline these workflows.
+To solve this, I developed a **VBA-powered automation system inside Excel** that transformed the workbook into an efficient maintenance management tool.
 
-This automation significantly reduced repetitive work, improved accuracy, and helped technical teams quickly monitor aircraft maintenance status.
+This solution significantly reduced manual effort, improved accuracy, and enabled faster operational decision-making.
 
 ---
 
-# Problem
+## ⚠️ Problem
 
 Aircraft maintenance tracking required:
 
-- Manual copying of aircraft state data between sheets
+- Manually copying data across multiple sheets
 - Updating daily aircraft logs
 - Calculating serviceable days
-- Generating shareable aircraft state reports
-- Monitoring components approaching maintenance limits
+- Generating shareable reports
+- Monitoring components nearing maintenance limits
+- Hard to find old records
 
 These tasks were performed **manually across multiple sheets**, which could take **hours or even weeks of effort** and carried a high risk of human error.
 
 ---
 
-# Solution
+## 💡 Solution
 
 I developed **five VBA automation modules** that transformed the workbook into an automated maintenance management tool.
 
@@ -35,9 +59,9 @@ Each module performs a specific operational function.
 
 ---
 
-# Modules
+## 🧩 Modules
 
-## Module 1 — Aircraft State Initialization
+### Module 1 — Aircraft State Initialization
 
 **Purpose**
 
@@ -56,7 +80,7 @@ Prepares and resets the aircraft state sheet for daily updates.
 
 ---
 
-## Module 2 — Daily Aircraft Log Entry
+### Module 2 — Daily Aircraft Log Entry
 
 **Purpose**
 
@@ -75,7 +99,7 @@ Automates insertion of daily aircraft log entries into maintenance records.
 
 ---
 
-## Module 3 — Aircraft Serviceable Days Tracking
+### Module 3 — Aircraft Serviceable Days Tracking
 
 **Purpose**
 
@@ -94,13 +118,15 @@ Tracks aircraft availability and serviceable days.
 
 ---
 
-## Module 4 — Automated Aircraft State Export
+### Module 4 — Automated Aircraft State Export
 
 **Purpose**
 
 Automates the generation of a secure, formula-free export of the aircraft state report for daily transmission to base operations.
 
-To meet operational and data-handling requirements, the report had to be shared in a format containing **values only**, without exposing formulas or internal workbook logic. This module converts the report into a sanitized copy and automatically saves it in a structured directory format, enabling fast and secure transfer over the local intranet.
+To meet operational and data-handling requirements, the report had to be shared in a **values-only format**, without exposing formulas or internal workbook logic. This allowed the base to directly import the data into their systems for further processing.
+
+This module converts the report into a sanitized copy and automatically saves it in a structured directory format, enabling fast and secure transfer over the local intranet.
 
 **Key Automation**
 
@@ -113,10 +139,13 @@ To meet operational and data-handling requirements, the report had to be shared 
 
 - Standardizes reporting workflow
 - Creates clean shareable maintenance reports
+- Instantly became **digital archive of historical reports**
+- Eliminated reliance on years of printed records
+- Enables **instant retrieval of past data**
 
 ---
 
-## Module 5 — Component Due Monitoring (Critical Automation)
+### Module 5 — Component Due Monitoring (Critical Automation)
 
 **Purpose**
 
@@ -124,10 +153,11 @@ Monitors aircraft components approaching maintenance limits.
 
 **Key Automation**
 
-- Scans multiple aircraft sheets automatically
-- Detects components with **less than 30 hours remaining**
-- Detects components with **less than 30 days remaining**
-- Consolidates all warnings into a monitoring sheet
+- Scans all aircraft sheets automatically
+- Flags components with:
+  - Less than **30 hours remaining**
+  - Less than **30 days remaining**
+- Consolidates alerts into a single dashboard
 
 **Impact**
 
@@ -135,11 +165,9 @@ This module was the **largest productivity improvement**.
 
 Previously, technicians had to manually inspect hundreds of rows across multiple aircraft sheets.
 
-This automation:
+This automation was born out of necessity during the Pulwama attack, when operations were running day and night to keep aircraft mission-ready. I created it to reduce manual effort and find brief moments of rest amid intense operational pressure.
 
-- Scans all aircraft automatically
-- Identifies critical components instantly
-- Consolidates warnings into a single sheet
+> 🏅 Received a **commendation from the Officer Commanding** for developing this automation system, which improved operational efficiency during high-pressure conditions.
 
 **Manual process:** ~2 weeks of effort  
 **Automated process:** a few seconds
@@ -148,7 +176,7 @@ This dramatically improved **maintenance awareness and safety monitoring**.
 
 ---
 
-# Technologies Used
+## 🧰 Technologies Used
 
 - Microsoft Excel
 - VBA (Visual Basic for Applications)
@@ -157,7 +185,7 @@ This dramatically improved **maintenance awareness and safety monitoring**.
 
 ---
 
-# Skills Demonstrated
+## 🧠 Skills Demonstrated
 
 - Process automation
 - Operational workflow optimization
@@ -167,7 +195,54 @@ This dramatically improved **maintenance awareness and safety monitoring**.
 
 ---
 
-# Security Notice
+## 📸 System Snapshots (Actual Implementation)
+
+Below are real screenshots from the automation system used during operations.
+
+These demonstrate the scale, structure, and functionality of the solution.
+
+`Data is from 2021 and screenshot taken on my system on 2026`
+
+### 🎛️ Automation Control Panel
+
+Centralized control interface for executing automation modules.
+
+- Main AC state
+- AC reset for daily initialization
+- One-click execution of workflows
+- Backup generation (exact values only copy) date wise
+- Component due checks (30h / 30d)
+![alt text](screenshots/screenshot02.png)
+
+### ⏱️ Component Due Monitoring
+
+Displays components approaching maintenance limits (hours/days).
+
+- Highlights critical components automatically
+- Consolidates data from multiple aircraft
+- Eliminates manual inspection across sheets
+![alt text](screenshots/screenshot01.png)
+
+### 📊 Aircraft Status Tracking
+
+Provides a quick overview of aircraft availability and operational status.
+
+- Tracks multiple aircraft in a single view
+- Simplifies daily monitoring
+![alt text](screenshots/screenshot03.png)
+
+### 📄 Individual AC Lifecycle Record
+
+Detailed tracking of individual components.
+
+- Tracks installation, usage, and remaining life
+- Supports accurate maintenance planning
+![alt text](screenshots/screenshot04.png)
+
+
+---
+
+## 🔒 Security Notice
 
 The original workbook contains **sensitive operational data**, therefore the file is locked and not publicly shared.
 
