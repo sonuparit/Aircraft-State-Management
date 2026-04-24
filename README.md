@@ -1,6 +1,6 @@
 # 🛩️ Army Aviation Maintenance Automation (Excel VBA)
 
-### 🏅 Received a **commendation from the Officer Commanding** for developing this automation system, which improved operational efficiency during high-pressure (**`Pulwama attack`**) conditions.
+### 🏅 Received a commendation from the Officer Commanding during my **`Leh posting`** for **`developing these automation system`**, which improved operational efficiency during high-pressure conditions following the **`Pulwama attack`**.
 
 These automations are now **`actively used across aviation units`**, and I’ve received hundreds of calls — both for support and in recognition of the impact they’ve created.
 
@@ -167,7 +167,7 @@ Previously, technicians had to manually inspect hundreds of rows across multiple
 
 This automation was born out of necessity during the Pulwama attack, when operations were running day and night to keep aircraft mission-ready. I created it to reduce manual effort and find brief moments of rest amid intense operational pressure.
 
-> 🏅 Received a **commendation from the Officer Commanding** for developing this automation system, which improved operational efficiency during high-pressure conditions.
+> 🏅 Received a **commendation from the Officer Commanding** for developing this automation system, which improved operational efficiency during high-pressure (`Pulwama attack`) conditions.
 
 **Manual process:** ~2 weeks of effort  
 **Automated process:** a few seconds
