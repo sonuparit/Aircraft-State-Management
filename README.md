@@ -16,8 +16,8 @@ These automations are now **`actively used across aviation units`**, and I’ve 
 - [Overview](#-overview)
 - [Tech Stack](#️-tech-stack)
 - [What This Project Demonstrates](#-what-this-project-demonstrates)
-- [Problems I Noticed](#️-problems-i-noticed)
-- [Challenges & Solutions](#️-challenges--solutions)
+- [Inefficiencies I Noticed](#️-inefficiencies-i-noticed)
+- [Problems & Solutions](#️-problems--solutions)
   - [Module 1 — Aircraft State Initialization](#-module-1--aircraft-state-initialization)
   - [Module 2 — Daily Aircraft Log Automation](#-module-2--daily-aircraft-log-automation)
   - [Module 3 — Serviceability Tracking](#-module-3--serviceability-tracking)
@@ -61,7 +61,7 @@ I focused on identifying bottlenecks, eliminating repetitive tasks, and creating
 
 - **Continuous Improvement** — Challenged inefficient manual procedures and introduced scalable solutions that delivered long-term operational benefits.
 
-## ⚠️ Problems I Noticed
+## ⚠️ Inefficiencies I Noticed
 
 Aircraft maintenance tracking required:
 
@@ -75,7 +75,7 @@ Aircraft maintenance tracking required:
 
 These tasks were performed **manually across multiple aircraft**, which could take **hours or even weeks of effort** and carried a high risk of human error.
 
-## ⚔️ Challenges & Solutions
+## ⚔️ Problems & Solutions
 
 I developed **five VBA automation modules** that transformed the workbook into an automated maintenance management tool.
 
